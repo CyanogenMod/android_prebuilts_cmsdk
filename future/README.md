@@ -6,4 +6,4 @@ available in a future release.
 
 Incremented with new future release <br />
 Current Baseline API level: 2 <br />
-Last update: July 13th 2015
+Last update: July 17th 2015
