@@ -13,18 +13,20 @@
 # limitations under the License.
 LOCAL_PATH := $(call my-dir)
 
-# Maven Upload
+# Maven Release Upload
 # ===========================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := cmsdk-current-maven
+LOCAL_MODULE := cmsdk-current-maven-RELEASE
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_MAVEN_REPO_ID := remote-repository
-LOCAL_MAVEN_REPO := https://oss.sonatype.org/content/repositories/snapshots
+LOCAL_MAVEN_REPO := https://oss.sonatype.org/service/local/staging/deploy/maven2
 LOCAL_MAVEN_CLASSIFICATION := $(VARIANT)Release
 LOCAL_MAVEN_FILE_PATH := $(LOCAL_PATH)/org.cyanogenmod.platform.sdk.jar
 LOCAL_MAVEN_POM := $(LOCAL_PATH)/pom.xml
+LOCAL_MAVEN_SOURCES := $(LOCAL_PATH)/platform.sdk-sources.jar
+LOCAL_MAVEN_JAVADOC := $(LOCAL_PATH)/platform.sdk-javadoc.jar
 
 include $(PUBLISH_MAVEN_PREBUILT)

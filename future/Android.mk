@@ -17,7 +17,7 @@ LOCAL_PATH := $(call my-dir)
 # ===========================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := cmsdk-development-maven
+LOCAL_MODULE := cmsdk-development-maven-SNAPSHOT
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_TAGS := optional
 
