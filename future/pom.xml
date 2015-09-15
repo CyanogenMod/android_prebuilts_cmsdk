@@ -17,4 +17,49 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
+    <developers>
+        <developer>
+            <id>cm-maven</id>
+            <name>CyanogenMod Maven Team</name>
+            <email>devrel@cyanogenmod.org</email>
+            <url>http://www.cyanogenmod.org</url>
+            <organization>CyanogenMod</organization>
+            <organizationUrl>http://www.cynanogenmod.org</organizationUrl>
+        </developer>
+        <developer>
+            <id>Decad3nce</id>
+            <name>Adnan Begovic</name>
+            <email>adnan@cyngn.com</email>
+            <url>http://www.github.com/Decad3nce</url>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/CyanogenMod/cm_platform_sdk</url>
+        <connection>scm:git:git://github.com/CyanogenMod/cm_platform_sdk.git</connection>
+        <developerConnection>scm:git:git@github.com:CyanogenMod/cm_platform_sdk.git</developerConnection>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
