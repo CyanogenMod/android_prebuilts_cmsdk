@@ -1,0 +1,8 @@
+  permission:cyanogenmod.permission.MANAGE_ALARMS
+  permission:cyanogenmod.permission.MODIFY_MSIM_PHONE_STATE
+  permission:cyanogenmod.permission.MODIFY_PROFILES
+  permission:cyanogenmod.permission.MODIFY_SOUND_SETTINGS
+  permission:cyanogenmod.permission.PUBLISH_CUSTOM_TILE
+  permission:cyanogenmod.permission.READ_ALARMS
+  permission:cyanogenmod.permission.READ_MSIM_PHONE_STATE
+  permission:cyanogenmod.permission.WRITE_SETTINGS
