@@ -21,21 +21,12 @@ LOCAL_MODULE := cmsdk-current-maven-RELEASE
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_TAGS := optional
 
-#Optional copy to local path, we'll build the module, copy it here, and publish from here.
-LOCAL_MAVEN_ARTIFACT_PATH := $(LOCAL_PATH)/org.cyanogenmod.platform.sdk.jar
-
-#Remote details
 LOCAL_MAVEN_REPO_ID := remote-repository
 LOCAL_MAVEN_REPO := https://oss.sonatype.org/service/local/staging/deploy/maven2
 LOCAL_MAVEN_CLASSIFICATION := $(VARIANT)Release
-
-#This is the target module to compile prior to publish
-LOCAL_MAVEN_TARGET_MODULE := org.cyanogenmod.platform.sdk.jar
-
-#Releases need sources and javadoc, should be copied into this directory prior to publish
+LOCAL_MAVEN_FILE_PATH := $(LOCAL_PATH)/org.cyanogenmod.platform.sdk.jar
 LOCAL_MAVEN_POM := $(LOCAL_PATH)/pom.xml
 LOCAL_MAVEN_SOURCES := $(LOCAL_PATH)/platform.sdk-sources.jar
 LOCAL_MAVEN_JAVADOC := $(LOCAL_PATH)/platform.sdk-javadoc.jar
 
-$(LOCAL_MODULE): $(copied_jar)
 include $(PUBLISH_MAVEN_PREBUILT)
