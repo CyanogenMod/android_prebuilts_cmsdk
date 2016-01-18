@@ -1,0 +1,15 @@
+  permission:cyanogenmod.permission.ACCESS_APP_SUGGESTIONS
+  permission:cyanogenmod.permission.BIND_CUSTOM_TILE_LISTENER_SERVICE
+  permission:cyanogenmod.permission.FINISH_SETUP
+  permission:cyanogenmod.permission.HARDWARE_ABSTRACTION_ACCESS
+  permission:cyanogenmod.permission.LEGALESE
+  permission:cyanogenmod.permission.MANAGE_PERSISTENT_STORAGE
+  permission:cyanogenmod.permission.MODIFY_MSIM_PHONE_STATE
+  permission:cyanogenmod.permission.MODIFY_NETWORK_SETTINGS
+  permission:cyanogenmod.permission.MODIFY_PROFILES
+  permission:cyanogenmod.permission.MODIFY_SOUND_SETTINGS
+  permission:cyanogenmod.permission.PROTECTED_APP
+  permission:cyanogenmod.permission.PUBLISH_CUSTOM_TILE
+  permission:cyanogenmod.permission.READ_MSIM_PHONE_STATE
+  permission:cyanogenmod.permission.WRITE_SECURE_SETTINGS
+  permission:cyanogenmod.permission.WRITE_SETTINGS
