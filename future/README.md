@@ -6,6 +6,6 @@ available in a future release.
 
 Incremented with new future release <br />
 Current Baseline API level: 4 <br />
-Last update: Wed Jan 06 2016 18:13:48 GMT-0800 (PST) <br />
-SHA1: 1df1c291fc5a5d1258fa7103219bc15e8f529f39 <br />
-MD5: e6f2fc36dfe16d81c4496a8cb679a9b9 <br />
+Last update: Mon Jan 18 2016 17:25:30 GMT-0800 (PST) <br />
+SHA1: 51dc7523ad8c90f534a20fa394c838f40b34ba5d <br />
+MD5: e51da80b1d275094246d16b9676374e4 <br />
