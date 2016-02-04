@@ -4,7 +4,7 @@
 
     <groupId>org.cyanogenmod</groupId>
     <artifactId>platform.sdk</artifactId>
-    <version>4.0</version>
+    <version>4.0.1</version>
     <packaging>jar</packaging>
 
     <name>CyanogenMod Platform SDK</name>
