@@ -5,7 +5,7 @@ parties who want to exercise some of the functionality
 available in a future release.
 
 Incremented with new future release <br />
-Current Baseline API level: 4 <br />
-Last update: Mon Jan 18 2016 17:25:30 GMT-0800 (PST) <br />
-SHA1: 51dc7523ad8c90f534a20fa394c838f40b34ba5d <br />
-MD5: e51da80b1d275094246d16b9676374e4 <br />
+Current Baseline API level: 5 <br />
+Last update: Tue Mar 15 2016 17:06:52 GMT-0700 (PDT) <br />
+SHA1: bb086cd1046db854f19192b30e4ef94c9a8b38bc <br />
+MD5: 4745333492b1b334f810a16e7ea393a1 <br />
