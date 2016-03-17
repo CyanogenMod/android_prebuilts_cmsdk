@@ -219,6 +219,7 @@ package cyanogenmod.app {
     method public int describeContents();
     method public cyanogenmod.profiles.AirplaneModeSettings getAirplaneMode();
     method public cyanogenmod.profiles.BrightnessSettings getBrightness();
+    method public cyanogenmod.profiles.ConnectionSettings getConnectionSettingWithSubId(int);
     method public java.util.Collection<cyanogenmod.profiles.ConnectionSettings> getConnectionSettings();
     method public int getDozeMode();
     method public int getExpandedDesktopMode();
@@ -328,7 +329,7 @@ package cyanogenmod.app {
     method public void updateProfile(cyanogenmod.app.Profile);
     field public static final java.lang.String ACTION_PROFILE_PICKER = "cyanogenmod.platform.intent.action.PROFILE_PICKER";
     field public static final java.lang.String EXTRA_LAST_PROFILE_NAME = "lastName";
-    field public static final java.lang.String EXTRA_LAST_PROFILE_UUID = "uuid";
+    field public static final java.lang.String EXTRA_LAST_PROFILE_UUID = "lastUuid";
     field public static final java.lang.String EXTRA_PROFILES_STATE = "profile_state";
     field public static final java.lang.String EXTRA_PROFILE_DIALOG_THEME = "cyanogenmod.platform.intent.extra.profile.DIALOG_THEME";
     field public static final java.lang.String EXTRA_PROFILE_EXISTING_UUID = "cyanogenmod.platform.extra.profile.EXISTING_UUID";
@@ -673,9 +674,11 @@ package cyanogenmod.profiles {
     ctor public ConnectionSettings(int, int, boolean);
     method public int describeContents();
     method public int getConnectionId();
+    method public int getSubId();
     method public int getValue();
     method public boolean isOverride();
     method public void setOverride(boolean);
+    method public void setSubId(int);
     method public void setValue(int);
     method public void writeToParcel(android.os.Parcel, int);
     field public static final int PROFILE_CONNECTION_2G3G4G = 9; // 0x9
