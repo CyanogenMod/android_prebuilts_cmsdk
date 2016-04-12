@@ -5,7 +5,7 @@
     <groupId>org.cyanogenmod</groupId>
     <artifactId>platform.sdk</artifactId>
     <version>5.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>aar</packaging>
 
     <name>CyanogenMod Platform SDK</name>
     <url>https://github.com/CyanogenMod/cm_platform_sdk</url>
