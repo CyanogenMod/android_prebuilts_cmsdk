@@ -2,7 +2,7 @@
 This current prebuilt tracks against quarterly releases.
 
 Incremented with new stable branching <br />
-Current Baseline API level: 4.0.1 <br />
-Last Update: Wed Feb 03 2016 16:13:30 GMT-0800 (PST) <br />
-SHA1: a3cc131737a120af3c4a45359c374b8bb6c28afe <br />
-MD5: 23847cf551d453c3410d4f0d2f1c266f <br />
+Current Baseline API level: 5.0 <br />
+Last Update: Thursday, April 14, 2016 14:29:55 PDT (GMT-0700) <br />
+SHA1: 92883f7e2209582593266bf71051d8621972ca99 <br />
+MD5: a8b9bbfa372e81ab475ed293ffd2e831 <br />
