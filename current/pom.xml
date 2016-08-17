@@ -4,7 +4,7 @@
 
     <groupId>org.cyanogenmod</groupId>
     <artifactId>platform.sdk</artifactId>
-    <version>5.0.1</version>
+    <version>6.0</version>
     <packaging>aar</packaging>
 
     <name>CyanogenMod Platform SDK</name>
